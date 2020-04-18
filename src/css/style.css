@@ -1,0 +1,108 @@
+body {
+    background: thistle;
+}
+
+.addButton {
+    display: block;
+    margin: 25px auto;
+}
+
+.taskBlock {
+    margin: 12px auto;
+    width: 85%;
+    border-radius: 35px;
+    background: rgb(100, 67, 219);
+    position: relative;
+}
+
+.taskText {
+    padding: 11px 0 11px 10px;
+}
+
+input {
+    color: #fff;
+    font-weight: bold;
+}
+
+.newTaskInput {
+    display: block;
+    margin: 25px 0;
+    display: -webkit-box;
+    display: flex;
+    -webkit-box-pack: center;
+            justify-content: center;
+}
+
+.newTaskInput input {
+    border-radius: 15px;
+    height: 30px;
+    color: black;
+    padding-left: 7px;
+    outline: none;
+    width: 250px;
+}
+
+.newTaskInput button {
+    margin-left: 20px;
+    border-radius: 15px;
+    outline: none;
+    background: rgb(132, 146, 51);
+    color: aqua;
+    font-size: 16px;
+}
+
+.newTaskInput button:hover {
+    cursor: pointer;
+    background: rgb(163, 189, 19);
+}
+
+.okIcon {
+    color: rgb(3, 223, 3);
+}
+
+.okIcon:hover {
+    color: rgb(6, 248, 6);
+}
+
+.deleteIcon {
+    color: rgb(204, 7, 7);
+}
+
+.deleteIcon:hover {
+    color: rgb(240, 6, 6);
+}
+
+.editIcon {
+    color: rgb(4, 4, 187);
+}
+
+.editIcon:hover { 
+    color: rgb(4, 4, 224);
+}
+
+.fa-check-square {
+    background: white;
+}
+
+.fas {
+    font-size: 20px;
+    cursor: pointer;
+    line-height: 0;
+    margin-left: 15px;
+}
+
+.icons {
+    position: absolute;
+    right: 20px;
+}
+
+.taskTextInp {
+    background: transparent;
+    outline: none;
+    border: none;
+    margin-left: 10px;
+}
+
+.ready {
+    background: rgb(60, 184, 101);
+}
